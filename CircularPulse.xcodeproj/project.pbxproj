@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1E6B64B1B39B9E30091A140 /* Pulse.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E6B64A1B39B9E30091A140 /* Pulse.m */; };
 		AC40AFEE1B398550008109E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC40AFED1B398550008109E1 /* main.m */; };
 		AC40AFF11B398550008109E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC40AFF01B398550008109E1 /* AppDelegate.m */; };
 		AC40AFF41B398550008109E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC40AFF31B398550008109E1 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A1E6B6491B39B9E30091A140 /* Pulse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pulse.h; sourceTree = "<group>"; };
+		A1E6B64A1B39B9E30091A140 /* Pulse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pulse.m; sourceTree = "<group>"; };
 		AC40AFE81B398550008109E1 /* CircularPulse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircularPulse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC40AFEC1B398550008109E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC40AFED1B398550008109E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -39,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A1E6B6481B39B9B00091A140 /* Pulse */ = {
+			isa = PBXGroup;
+			children = (
+				A1E6B6491B39B9E30091A140 /* Pulse.h */,
+				A1E6B64A1B39B9E30091A140 /* Pulse.m */,
+			);
+			path = Pulse;
+			sourceTree = "<group>";
+		};
 		AC40AFDF1B398550008109E1 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +70,7 @@
 		AC40AFEA1B398550008109E1 /* CircularPulse */ = {
 			isa = PBXGroup;
 			children = (
+				A1E6B6481B39B9B00091A140 /* Pulse */,
 				AC40AFF21B398550008109E1 /* ViewController.h */,
 				AC40AFF31B398550008109E1 /* ViewController.m */,
 				AC40AFF51B398550008109E1 /* Main.storyboard */,
@@ -152,6 +165,7 @@
 				AC40AFF41B398550008109E1 /* ViewController.m in Sources */,
 				AC40AFF11B398550008109E1 /* AppDelegate.m in Sources */,
 				AC40AFEE1B398550008109E1 /* main.m in Sources */,
+				A1E6B64B1B39B9E30091A140 /* Pulse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
